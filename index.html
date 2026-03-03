@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>SkyHeavenSMP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    :root {
+      --bleu: #1e90ff;
+      --jaune: #f5c400;
+      --blanc: #ffffff;
+      --fond: #f4f8ff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: var(--fond);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--bleu), #5ab0ff);
+      color: var(--blanc);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background-color: var(--blanc);
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--bleu);
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--bleu);
+      margin-bottom: 20px;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: var(--blanc);
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-top: 5px solid var(--jaune);
+    }
+
+    .card h3 {
+      color: var(--bleu);
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      text-align: center;
+      background-color: var(--bleu);
+      color: var(--blanc);
+      padding: 50px 20px;
+    }
+
+    .cta h2 {
+      color: var(--blanc);
+      margin-bottom: 15px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background-color: var(--jaune);
+      color: #000;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #0d3c75;
+      color: var(--blanc);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>SkyHeavenSMP</h1>
+    <p>Le SMP Minecraft où le ciel est la seule limite ☁️</p>
+  </header>
+
+  <nav>
+    <a href="#presentation">Présentation</a>
+    <a href="#features">Fonctionnalités</a>
+    <a href="#join">Rejoindre</a>
+  </nav>
+
+  <section id="presentation">
+    <h2>🌤️ À propos du serveur</h2>
+    <p style="text-align:center;">
+      SkyHeavenSMP est un serveur Minecraft communautaire basé sur la survie,
+      la coopération et la créativité. Rejoins une aventure unique dans un monde
+      où chaque joueur a sa place.
+    </p>
+  </section>
+
+  <section id="features">
+    <h2>⚔️ Fonctionnalités</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Survie Vanilla+</h3>
+        <p>Une expérience survie améliorée sans dénaturer Minecraft.</p>
+      </div>
+
+      <div class="card">
+        <h3>Communauté active</h3>
+        <p>Des joueurs respectueux, events réguliers et entraide.</p>
+      </div>
+
+      <div class="card">
+        <h3>Events & Projets</h3>
+        <p>Builds communautaires, mini-jeux et défis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="join">
+    <h2>🚀 Rejoins SkyHeavenSMP</h2>
+    <p>IP du serveur :</p>
+    <h3>play.skyheavensmp.fr</h3>
+    <a href="#">Rejoindre le Discord</a>
+  </section>
+
+  <footer>
+    © 2026 SkyHeavenSMP — Site créé avec ❤️ pour Minecraft
+  </footer>
+
+</body>
+</html>
